@@ -1,0 +1,24 @@
+{
+  "name": "prisma-tutor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.7.8",
+    "prisma": "^2.30.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.30.2",
+    "@types/express": "^4.17.13",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
